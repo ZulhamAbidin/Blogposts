@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+{{-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
         <a class="navbar-brand" href="/">Belajar Laravel</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -11,24 +11,14 @@
                     <a class="nav-link {{ $judul === 'Home' ? 'active' : '' }}" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about">About</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link {{ Request::is('blogs*') ? 'active' : '' }}" href="/blogs">Blogs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ Request::is('categories*') ? 'active' : '' }}"
-                        href="/categories">Categories</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ Request::is('authors*') ? 'active' : '' }} " href="/authors">Authors</a>
                 </li>
             </ul>
 
             <ul class="navbar-nav ms-auto">
                 @auth
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             {{ auth()->user()->name }}
                         </a>
@@ -59,4 +49,10 @@
             </div>
         @endauth
     </div>
-</nav>
+</nav> --}}
+
+
+
+
+
+

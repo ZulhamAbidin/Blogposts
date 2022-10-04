@@ -29,9 +29,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about', [
         "judul" => "About",
-        "nama" => "Rangga Agastya",
-        "email" => "mochariyanto92@smk.belajar.id",
-        "gambar" => "rngga.jpg",
+        "nama" => "ZulhamAbidin",
+        "email" => "zlhm378@gmail.com",
+        "gambar" => "zlhm.jpg",
     ]);
 });
 

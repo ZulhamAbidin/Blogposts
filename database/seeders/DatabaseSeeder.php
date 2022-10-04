@@ -16,23 +16,45 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        User::factory(5)->create();
+
+        // User::create([
+        //     'name' => 'admin123',
+        //     'username' => 'admin123',
+        //     'email' => 'username@gmail.com',
+        //     'password' => bcrypt('password')
+        // ]);
+
+         User::create([
+            'name' => 'ZulhamAbidin',
+            'username' => 'pemprogramanwebsite',
+            'email' => 'pemprogramanwebsite@gmail.com',
+            'password' => bcrypt('pemprogramanwebsite')
+        ]);
+
+        //  User::create([
+        //     'name' => 'Zulham Abidin',
+        //     'username' => 'zulhamabidin',
+        //     'email' => 'zlhm378@gmail.com',
+        //     'password' => bcrypt('zulhamabidin')
+        // ]);
+
+        // User::factory(5)->create();
 
         Category::create([
-            "name" => "Web Programming",
-            "slug" => "web-programming"
+            "name" => "FAKULTAS TEKNIK",
+            "slug" => "FAKULTAS TEKNIK"
         ]);
 
         Category::create([
-            "name" => "Web Desain",
-            "slug" => "web-desain"
+            "name" => "FAKULTAS SENI",
+            "slug" => "FAKULTAS SENI"
         ]);
 
         Category::create([
-            "name" => "Personal",
-            "slug" => "personal"
+            "name" => "FAKULTAS MIPA",
+            "slug" => "FAKULTAS MIPA"
         ]);
 
-        Blog::factory(15)->create();
+        Blog::factory(1)->create();
     }
 }
