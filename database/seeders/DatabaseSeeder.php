@@ -17,12 +17,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 
-        // User::create([
-        //     'name' => 'admin123',
-        //     'username' => 'admin123',
-        //     'email' => 'username@gmail.com',
-        //     'password' => bcrypt('password')
-        // ]);
+        // // User::create([
+        // //     'name' => 'admin123',
+        // //     'username' => 'admin123',
+        // //     'email' => 'username@gmail.com',
+        // //     'password' => bcrypt('password')
+        // // ]);
 
          User::create([
             'name' => 'ZulhamAbidin',
@@ -30,13 +30,6 @@ class DatabaseSeeder extends Seeder
             'email' => 'pemprogramanwebsite@gmail.com',
             'password' => bcrypt('pemprogramanwebsite')
         ]);
-
-        //  User::create([
-        //     'name' => 'Zulham Abidin',
-        //     'username' => 'zulhamabidin',
-        //     'email' => 'zlhm378@gmail.com',
-        //     'password' => bcrypt('zulhamabidin')
-        // ]);
 
         // User::factory(5)->create();
 
@@ -55,6 +48,5 @@ class DatabaseSeeder extends Seeder
             "slug" => "FAKULTAS MIPA"
         ]);
 
-        Blog::factory(1)->create();
     }
 }

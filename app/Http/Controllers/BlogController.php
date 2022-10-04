@@ -15,6 +15,13 @@ class BlogController extends Controller
         ]);
     }
 
+    public function index2()
+    {
+        return view('/home', [
+            "blogs" => Blog::latest()->get(),
+        ]);
+    }
+
     public function show(Blog $blog)
     {
         return view('blog', [

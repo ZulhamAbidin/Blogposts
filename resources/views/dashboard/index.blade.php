@@ -107,7 +107,7 @@
           <div class="intro-x dropdown w-8 h-8 mr-24 mb-2">
             <form action="/logout" method="post">
                 @csrf
-              <button type="submit" class="text-white hover:bg-teal-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm pl-5  py-2.5 mr- mb-1 dark:bg-teal-500 dark:hover:bg-teal-500 focus:outline-none dark:focus:ring-teal-800 w-28 h-9 flex text-xs">Log Out
+              <button type="submit" class="text-white hover:bg-teal-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm pl-5  py-2.5 mr- mb-1 dark:bg-teal-500 dark:hover:bg-teal-500 focus:outline-none dark:focus:ring-teal-800 w-28 h-9 flex">Log Out
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 ml-1 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>

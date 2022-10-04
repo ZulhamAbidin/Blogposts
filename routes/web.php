@@ -20,11 +20,11 @@ use App\Http\Controllers\DashboardBlogController;
 |
 */
 
-Route::get('/', function () {
-    return view('home', [
-        "judul" => "Home"
-    ]);
-});
+// Route::get('/', function () {
+//     return view('home', [
+//         "judul" => "Home"
+//     ]);
+// });
 
 Route::get('/about', function () {
     return view('about', [
@@ -34,6 +34,8 @@ Route::get('/about', function () {
         "gambar" => "zlhm.jpg",
     ]);
 });
+
+Route::get('/', [BlogController::class, "index2"]);
 
 Route::get('/categories', [CategoryController::class, "index"]);
 
