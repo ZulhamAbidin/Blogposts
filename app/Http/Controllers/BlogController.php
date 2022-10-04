@@ -18,6 +18,7 @@ class BlogController extends Controller
     public function index2()
     {
         return view('/home', [
+             "judul" => "Home",
             "blogs" => Blog::latest()->get(),
         ]);
     }
