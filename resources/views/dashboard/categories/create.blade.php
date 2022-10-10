@@ -10,8 +10,8 @@
             @csrf
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="input" class="form-control @error('name') is-invalid @enderror" id="name" name="name" autofocus
-                    value="{{ old('name') }}" autocomplete="off" required>
+                <input type="input" class="form-control @error('name') is-invalid @enderror" id="name" name="name"
+                    autofocus value="{{ old('name') }}" autocomplete="off" required>
                 @error('name')
                     <div class="invalid-feedback">
                         {{ $message }}

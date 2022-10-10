@@ -11,10 +11,10 @@
 
     <link href="/css/dashboard.css" rel="stylesheet">
     <link href="/js/tailwind.config.js" rel="">
-   
-      <script src="https://cdn.tailwindcss.com"></script>
 
-  
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
 
     <link rel="stylesheet" type="text/css" href="/css/trix.css">
     <script type="text/javascript" src="/js/trix.js"></script>
@@ -23,7 +23,6 @@
         button.trix-button.trix-button--icon.trix-button--icon-attach {
             display: none;
         }
-
     </style>
 </head>
 
