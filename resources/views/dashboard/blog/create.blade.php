@@ -290,6 +290,7 @@
                             @endif
                         @endforeach
                     </select>
+                    
                     @error('category_id')
                         <div class="invalid-feedback">
                             {{ $message }}

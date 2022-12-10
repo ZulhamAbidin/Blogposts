@@ -222,10 +222,7 @@
 
             <div class="grid grid-cols-12 gap-2">
 
-                <div
-                    class="col-span-12 lg:col-span-10 2xl:col-span-10 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-190">
-
-
+                <div class="col-span-12 lg:col-span-10 2xl:col-span-10 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-190">
                     <div class="intro-y inbox box mt-5">
                         <div class="intro-y">
                             <div
@@ -276,10 +273,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
 
             </div>
 

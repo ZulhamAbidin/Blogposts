@@ -24,6 +24,20 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('pemprogramanwebsite')
         ]);
 
+         User::create([
+            'name' => 'ZulhamAbidin',
+            'username' => 'astriayuningsih',
+            'email' => 'astriayuningsih@gmail.com',
+            'password' => bcrypt('astriayuningsih')
+        ]);
+
+         User::create([
+            'name' => 'ZulhamAbidin',
+            'username' => 'zulhamabidin',
+            'email' => 'zulhamabidin@gmail.com',
+            'password' => bcrypt('astriayuningsih')
+        ]);
+
         // User::factory(5)->create();
 
         Category::create([
